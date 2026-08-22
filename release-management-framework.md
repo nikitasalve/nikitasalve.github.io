@@ -1,57 +1,72 @@
----
-layout: default
-title: Release Manager Framework
----
+## Release Lifecycle
 
-# End-to-End Release Management Framework
+<p align="center">
+  <strong>From release planning to controlled production delivery</strong>
+</p>
 
-> **Release planning, readiness, governance and controlled production delivery across the complete release lifecycle.**
+<div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin:30px 0;">
 
----
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">01</div>
+  <h3>Plan</h3>
+  <p><strong>Scope & Schedule</strong></p>
+  <p>Release scope<br>Release calendar<br>Priorities & dependencies</p>
+</div>
 
-## Objective
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">02</div>
+  <h3>Coordinate</h3>
+  <p><strong>Teams & Environments</strong></p>
+  <p>Dev → QA → UAT<br>Pre-Prod readiness<br>Cross-team dependencies</p>
+</div>
 
-The objective of this framework is to provide a structured approach for managing releases from initial planning through production deployment and post-release validation.
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">03</div>
+  <h3>Validate</h3>
+  <p><strong>Release Readiness</strong></p>
+  <p>Testing & UAT<br>Defect & risk review<br>Deployment readiness</p>
+</div>
 
-It brings together:
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">04</div>
+  <h3>Govern</h3>
+  <p><strong>Change & Go/No-Go</strong></p>
+  <p>Impact assessment<br>CAB & approvals<br>Rollback readiness</p>
+</div>
 
-- Release scope and planning
-- Release calendar management
-- Environment coordination
-- Dependency and risk management
-- Testing and business readiness
-- Change governance
-- Go/No-Go decision-making
-- Production deployment coordination
-- Post-release validation
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">05</div>
+  <h3>Deploy</h3>
+  <p><strong>Production Release</strong></p>
+  <p>Deployment coordination<br>CI/CD governance<br>Production monitoring</p>
+</div>
 
----
+<div style="flex:1; text-align:center;">
+  <div style="font-size:28px; font-weight:bold;">06</div>
+  <h3>Stabilize</h3>
+  <p><strong>Validate & Improve</strong></p>
+  <p>Post-release validation<br>Hypercare<br>PIR & improvements</p>
+</div>
 
-# Release Lifecycle
+</div>
 
-```text
-Release Intake
-      ↓
-Scope & Impact Assessment
-      ↓
-Release Planning
-      ↓
-Dependency & Risk Review
-      ↓
-Environment Readiness
-      ↓
-Testing & UAT
-      ↓
-Change & CAB Approval
-      ↓
-Release Readiness Review
-      ↓
-Go / No-Go Decision
-      ↓
-Production Deployment
-      ↓
-Post-Release Validation
-      ↓
-Hypercare & Monitoring
-      ↓
-Post-Implementation Review
+### Release Flow
+
+**Release Scope → Planning → Environment Readiness → Testing & UAT → Change Approval → Go/No-Go → Production Deployment → Post-Release Validation**
+
+### Release Environments
+
+**DEV → QA → UAT → PRE-PROD → PRODUCTION**
+
+### Release Manager Focus
+
+| Phase | Primary Focus |
+|---|---|
+| **Plan** | Scope, priorities, timeline and release calendar |
+| **Coordinate** | Teams, environments and dependencies |
+| **Validate** | Testing, UAT, defects, risks and readiness |
+| **Govern** | Change control, CAB, approvals and Go/No-Go |
+| **Deploy** | Controlled production deployment and CI/CD coordination |
+| **Stabilize** | Production validation, hypercare and continuous improvement |
+
+> **Release management is the coordination of people, process and technology to deliver controlled, compliant and business-aligned production releases.**

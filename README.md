@@ -19,7 +19,7 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
 
 ## 📂 Release Management Expertise
 
-### 1. Enterprise Cutover Playbook & Fallback Strategy
+### 1. Release Management Framework
 * **Objective:** Plan and coordinate releases across Dev, QA, UAT, Pre-Prod and Production, ensuring scope, dependencies, readiness and deployment activities are aligned.
 * **Artifacts Included:**
   * Release Calendar

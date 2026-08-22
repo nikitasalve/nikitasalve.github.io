@@ -1,18 +1,18 @@
 # Nikita Salve | Release Manager 
-**AI-Driven Delivery & Governance • Zero Production Rollbacks • Open to Remote / Hybrid**
+**Release Management • Azure DevOps • CI/CD • ServiceNow • ITIL • Open to Remote / Hybrid**
 
 [LinkedIn](https://linkedin.com) • [Email](mailto:nikitasalve2@gmail.com) • +91 9922285444
 
 ---
 
 ## 🎯 Executive Summary
-Results-driven Release & Technical Program Manager with proven experience orchestrating end-to-end software delivery, CI/CD pipeline governance, and cross-functional operational readiness across enterprise environments. Hands-on expertise leveraging GenAI copilots and workflow automation to de-risk deployments and accelerate release velocity while maintaining a 100% SLA adherence record with zero production rollbacks.
-
----
+Release Manager with 5.8 years of experience driving end-to-end enterprise releases, IT service management and offshore transition initiatives. Experienced in release planning, readiness governance, risk and dependency management, change control and go/no-go decisions across Dev, QA, UAT, Pre-Prod and Production environments. Skilled in Azure DevOps, CI/CD, ServiceNow and ITIL, with experience leading cross-functional Agile teams to deliver controlled, compliant and business-aligned releases.
 
 ## 🛠️ Core Competencies & Tool Stack
-* **Release & Governance:** End-to-End Release Management, CI/CD Promotion Gatekeeping, Go/No-Go Governance, Release Calendar Management, Cutover Orchestration, Post-Implementation Reviews (PIR), CAB Setup & Leadership.
-* **Standards & Compliance:** ITIL® V4, ISO 27001:2022 Lead Auditor, Agile / Scrum, SDLC, NIST / GDPR.
+* **RELEASE GOVERNANCE:** End-to-End Planning · Release Readiness · Go/No-Go · Risk & Dependencies · Deployment & Rollback · Environment Management
+* **IT SERVICE MANAGEMENT:** ITIL V4 · Change Management · CAB · Incident & Problem Management · SLA Management · ServiceNow
+* **DELIVERY & LEADERSHIP:** Cross-Functional Leadership · Agile/Scrum · DevOps Coordination · Stakeholder Management · Offshore Transition
+* **TECHNOLOGY:** Azure DevOps · CI/CD · ServiceNow · Jira · Confluence · SAP MDG · Power BI · SQL · Python
 * **Tools & Platforms:** Azure DevOps (ADO Pipelines & Gates), ServiceNow ITSM, Jira / Confluence, PowerBI, SAP MDG, SQL, Python.
 
 ---

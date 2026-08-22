@@ -50,6 +50,17 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
   * Change Closure Review
 * 👉 **[View ITIL Change & Release Governance](change-release-governance.html)**
 
+### 4. Production Deployment & Cutover Management
+* **Objective:** Coordinate controlled production deployments by ensuring deployment plans, environment readiness, rollback strategies and cross-functional execution are aligned.
+* **Artifacts :**
+  * Production Cutover Plan
+  * Deployment Runbook
+  * Deployment Timeline
+  * Rollback / Backout Plan
+  * Production Validation Checklist
+* 👉 **[View View Production Deployment & Cutover Framework](production-deployment-cutover.html)**
+
+
 
 ## 📜 Key Certifications
 * **ITIL® V4 Foundation** — IT Service Management & Incident/Change Lifecycles

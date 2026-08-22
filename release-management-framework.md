@@ -1,8 +1,7 @@
 ---
-
 layout: default
-title: Release Manager Framework
---------------------------------
+title: "Release Manager Framework"
+---
 
 <style>
 .release-framework {

@@ -76,4 +76,4 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
 ## 📜 Key Certifications
 * **ITIL® V4 Foundation** — IT Service Management & Incident/Change Lifecycles
 * **IRCA ISO 27001:2022 Lead Auditor** — Enterprise Security & Compliance Risk Governance
-* **MBA in IT & Business Management** — Symbiosis International University
+

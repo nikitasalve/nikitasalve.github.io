@@ -1,0 +1,28 @@
+# GenAI-Powered Defect Triage & Release Communications Pipeline
+**Author:** Nikita Salve | Lead Release & Technical Program Manager
+
+---
+
+## 🤖 Overview & Objective
+Manual release notes generation and defect triage synthesis often take 4–6 hours per release cycle. This pipeline automates the ingestion of Jira sprint tickets, Git merge commit messages, and ServiceNow change logs to generate executive and stakeholder-facing communications in minutes.
+
+---
+
+## ⚙️ Automated Workflow Architecture
+
+```text
+[ Git Commits / PRs ] + [ Jira Release Board ]
+                 │
+                 ▼
+     [ Data Extraction Script ]
+                 │
+                 ▼
+   [ GenAI LLM / Copilot Engine ] ──► (System Prompt: ITIL Tone & Risk Filter)
+                 │
+        ┌────────┴────────┐
+        ▼                 ▼
+[ Executive Summary ]  [ Customer Release Notes ]
+
+You are a Lead Release Manager orchestrating enterprise software deployments. 
+Analyze the provided JSON payload of completed Jira tickets and commit messages.
+

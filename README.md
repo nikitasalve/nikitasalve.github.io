@@ -12,8 +12,7 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
 * **RELEASE GOVERNANCE:** End-to-End Planning · Release Readiness · Go/No-Go · Risk & Dependencies · Deployment & Rollback · Environment Management
 * **IT SERVICE MANAGEMENT:** ITIL V4 · Change Management · CAB · Incident & Problem Management · SLA Management · ServiceNow
 * **DELIVERY & LEADERSHIP:** Cross-Functional Leadership · Agile/Scrum · DevOps Coordination · Stakeholder Management · Offshore Transition
-* **TECHNOLOGY:** Azure DevOps · CI/CD · ServiceNow · Jira · Confluence · SAP MDG · Power BI · SQL · Python
-* **TOOLS & PLATFORM:** Azure DevOps (ADO Pipelines & Gates), ServiceNow ITSM, Jira / Confluence, PowerBI, SAP MDG, SQL, Python.
+* **TOOLS & TECHNOLOGIES:** Azure DevOps, ServiceNow, Jira, Confluence, GitLab, CI/CD, Power BI, ITIL V4, Agile/Scrum, Change Management, Release Management, Release Governance, Go/No-Go Management, Risk & Dependency Management, CAB Coordination, Environment Management
 
 ---
 

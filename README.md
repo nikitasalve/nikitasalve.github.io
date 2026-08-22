@@ -36,6 +36,8 @@ Results-driven Release & Technical Program Manager with proven experience orches
 * 👉 **[View Go/No-Go Gatekeeping Matrix](go-no-go-gates.md)**
 
 ### 3. GenAI-Powered Release Notes & Triage Pipeline
+```markdown
+   * 👉 **[View GenAI Release Pipeline](genai-release-pipeline.md)**
 * **Objective:** Automate manual documentation turnaround time by 60%.
 * **Workflow:** Automated aggregation of Jira commits and defect logs into executive release summaries via AI prompts.
 

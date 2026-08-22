@@ -29,13 +29,13 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
   * Release Status Report
 * 👉 **[View Release Management Framework](release-management-framework.html)**
 
-### 2. CI/CD Go/No-Go Gatekeeping Matrix
+### 2. Release Readiness & Go/No-Go Governance
 * **Objective:** Enforce quality and security guardrails prior to production deployment.
 * **Governance Gates:**
   * **P1/P2 Defect Count:** Zero tolerance threshold for critical blockers.
   * **Test Automation:** >95% automated regression pass rate in Pre-Prod.
   * **Security & Compliance:** ISO 27001 vulnerability scans clear.
-* 👉 **[View Go/No-Go Gatekeeping Matrix](go-no-go-gates.html)**
+* 👉 **[View Release Readiness Framework](release-readiness-framework.html)**
 
 ### 3. GenAI-Powered Release Notes & Triage Pipeline
 * **Objective:** Automate manual documentation turnaround time by 60%.

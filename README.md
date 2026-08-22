@@ -17,15 +17,17 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
 
 ---
 
-## 📂 Featured Release Governance Artifacts
+## 📂 Release Management Expertise
 
 ### 1. Enterprise Cutover Playbook & Fallback Strategy
-* **Objective:** Coordinate multi-team cutovers across UK/Europe & India tracks with zero downtime.
+* **Objective:** Plan and coordinate releases across Dev, QA, UAT, Pre-Prod and Production, ensuring scope, dependencies, readiness and deployment activities are aligned.
 * **Artifacts Included:**
-  * Minute-by-minute cutover timeline with automated smoke test triggers.
-  * Explicit rollback criteria and fallback orchestration workflows.
-  * Asynchronous stakeholder communication matrix.
-* 👉 **[View Complete Cutover Playbook](cutover-playbook.html)**
+  * Release Calendar
+  * Release Plan
+  * Release Scope & Dependency Tracker
+  * Environment Readiness Checklist
+  * Release Status Report
+* 👉 **[View Release Management Framework](release-management-framework.html)**
 
 ### 2. CI/CD Go/No-Go Gatekeeping Matrix
 * **Objective:** Enforce quality and security guardrails prior to production deployment.

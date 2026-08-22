@@ -25,6 +25,7 @@ Results-driven Release & Technical Program Manager with proven experience orches
   * Minute-by-minute cutover timeline with automated smoke test triggers.
   * Explicit rollback criteria and fallback orchestration workflows.
   * Asynchronous stakeholder communication matrix.
+* 👉 **[View Complete Cutover Playbook](cutover-playbook.md)**
 
 ### 2. CI/CD Go/No-Go Gatekeeping Matrix
 * **Objective:** Enforce quality and security guardrails prior to production deployment.
@@ -32,12 +33,13 @@ Results-driven Release & Technical Program Manager with proven experience orches
   * **P1/P2 Defect Count:** Zero tolerance threshold for critical blockers.
   * **Test Automation:** >95% automated regression pass rate in Pre-Prod.
   * **Security & Compliance:** ISO 27001 vulnerability scans clear.
+* 👉 **[View Go/No-Go Gatekeeping Matrix](go-no-go-gates.md)**
 
 ### 3. GenAI-Powered Release Notes & Triage Pipeline
 * **Objective:** Automate manual documentation turnaround time by 60%.
 * **Workflow:** Automated aggregation of Jira commits and defect logs into executive release summaries via AI prompts.
 
----
+
 
 ## 📜 Key Certifications
 * **ITIL® V4 Foundation** — IT Service Management & Incident/Change Lifecycles

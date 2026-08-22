@@ -40,10 +40,15 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
   * Stakeholder Sign-off
 * 👉 **[View Release Readiness Framework](release-readiness-framework.html)**
 
-### 3. GenAI-Powered Release Notes & Triage Pipeline
-* **Objective:** Automate manual documentation turnaround time by 60%.
-* **Workflow:** Automated aggregation of Jira commits and defect logs into executive release summaries via AI prompts.
-* 👉 **[View GenAI Release Pipeline](genai-release-pipeline.html)**
+### 3. ITIL Change & Release Governance
+* **Objective:** Ensure production changes are properly assessed, approved, documented, and implemented through ITIL-aligned change management and governance processes.
+* **Artifacts :**
+  * Change Risk & Impact Assessment
+  * Change Implementation Plan
+  * CAB Approval Record
+  * Normal & Emergency Change Workflow
+  * Change Closure Review
+* 👉 **[View ITIL Change & Release Governance](change-release-governance.html)**
 
 
 ## 📜 Key Certifications

@@ -58,7 +58,18 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
   * Deployment Timeline
   * Rollback / Backout Plan
   * Production Validation Checklist
-* 👉 **[View View Production Deployment & Cutover Framework](production-deployment-cutover.html)**
+* 👉 **[View Production Deployment & Cutover Framework](production-deployment-cutover.html)**
+
+### 5. Cross-Functional Release Leadership
+* **Objective:** Coordinate Engineering, QA, DevOps, Operations and business stakeholders to maintain alignment, manage dependencies and support successful releases.
+* **Artifacts :**
+  * Stakeholder Communication Matrix
+  * RACI / Ownership Matrix
+  * Release Status Dashboard
+  * Dependency Tracker
+  * RAID Log
+  * Escalation Matrix
+* 👉 **[View Cross-Functional Release Leadership Framework](cross-functional-release-leadership.html)**
 
 
 

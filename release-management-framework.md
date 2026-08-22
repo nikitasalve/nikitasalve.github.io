@@ -1,42 +1,57 @@
-Markdown
 ---
 layout: default
 title: Release Manager Framework
 ---
-# Enterprise Cutover & Rollback Orchestration Playbook
-**Author:** Nikita Salve | Lead Release & Technical Program Manager
+
+# End-to-End Release Management Framework
+
+> **Release planning, readiness, governance and controlled production delivery across the complete release lifecycle.**
 
 ---
 
-## 📌 Context & Scope
-* **Application Scope:** Multi-region enterprise services (UK/Europe & India delivery tracks).
-* **Target Window:** Off-peak maintenance window (01:00 UTC – 04:00 UTC).
-* **Primary Objective:** Zero unscheduled downtime, automated validation, and defined rollback criteria.
+## Objective
+
+The objective of this framework is to provide a structured approach for managing releases from initial planning through production deployment and post-release validation.
+
+It brings together:
+
+- Release scope and planning
+- Release calendar management
+- Environment coordination
+- Dependency and risk management
+- Testing and business readiness
+- Change governance
+- Go/No-Go decision-making
+- Production deployment coordination
+- Post-release validation
 
 ---
 
-## ⏱️ Cutover Execution Schedule (T-Minus & Execution)
+# Release Lifecycle
 
-| Time (UTC) | Phase | Action Item | Owner | Verification Gate |
-| :--- | :--- | :--- | :--- | :--- |
-| **T - 4h** | Pre-Cutover | Change Freeze verification & CAB sign-off check | Release Lead | CAB approval in ServiceNow |
-| **T - 1h** | Pre-Cutover | Pre-deployment database backup & snapshot capture | DBA Lead | Snapshot ID logged in runbook |
-| **T = 00:00** | Deployment | Trigger Azure DevOps automated release pipeline | DevOps / Release | ADO Stage 1 (Infra/DB) Green |
-| **T + 00:45** | Deployment | Deploy backend services & API microservices | Eng Lead | Health checks return HTTP 200 |
-| **T + 01:15** | Validation | Run automated smoke & regression test suites | QA Lead | Automated pass rate = 100% |
-| **T + 01:45** | Governance | **Formal Go / No-Go Decision Gate** | Release Lead | Sign-offs from QA, Dev & Ops |
-| **T + 02:00** | Post-Cutover | Traffic switch & DNS routing | Network/Ops | Latency & error rates normal |
-
----
-
-## 🚨 Rollback Trigger Thresholds & Fallback Plan
-* **Trigger 1:** P1 defect detected during automated smoke testing with no hotfix within 15 minutes.
-* **Trigger 2:** API latency exceeds baseline SLA by >20% across 3 consecutive checks.
-* **Trigger 3:** Data migration checksum mismatch.
-
-### Fallback Steps:
-1. Release Lead announces **"ABORT & ROLLBACK"** on the bridge.
-2. Revert DNS traffic back to stable Blue environment.
-3. Trigger automated database restore from snapshot captured at `T - 1h`.
-4. Run validation checks on restored environment.
-5. Notify stakeholders via status update email.
+```text
+Release Intake
+      ↓
+Scope & Impact Assessment
+      ↓
+Release Planning
+      ↓
+Dependency & Risk Review
+      ↓
+Environment Readiness
+      ↓
+Testing & UAT
+      ↓
+Change & CAB Approval
+      ↓
+Release Readiness Review
+      ↓
+Go / No-Go Decision
+      ↓
+Production Deployment
+      ↓
+Post-Release Validation
+      ↓
+Hypercare & Monitoring
+      ↓
+Post-Implementation Review

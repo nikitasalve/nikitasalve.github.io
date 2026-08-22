@@ -1,7 +1,7 @@
 # Nikita Salve | Release Manager 
 **Release Management • Azure DevOps • CI/CD • ServiceNow • ITIL • Open to Remote / Hybrid**
 
-[LinkedIn](https://www.linkedin.com/in/nikitasalve/) • **nikitasalve2@gmail.com** • +91 9922285444
+[LinkedIn](https://www.linkedin.com/in/nikita-salve/)• **nikitasalve2@gmail.com** • +91 9922285444
 
 ---
 

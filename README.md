@@ -30,11 +30,14 @@ Release Manager with 5.8 years of experience driving end-to-end enterprise relea
 * 👉 **[View Release Management Framework](release-management-framework.html)**
 
 ### 2. Release Readiness & Go/No-Go Governance
-* **Objective:** Enforce quality and security guardrails prior to production deployment.
-* **Governance Gates:**
-  * **P1/P2 Defect Count:** Zero tolerance threshold for critical blockers.
-  * **Test Automation:** >95% automated regression pass rate in Pre-Prod.
-  * **Security & Compliance:** ISO 27001 vulnerability scans clear.
+* **Objective:** Ensure all technical, testing, operational, and business requirements are ready before production deployment and support a clear Go/No-Go decision.
+* **Artifacts:**
+  * Release Readiness Checklist
+  * Go/No-Go Decision Matrix
+  * Risk & Impact Assessment
+  * Deployment Readiness Checklist
+  * Rollback Plan
+  * Stakeholder Sign-off
 * 👉 **[View Release Readiness Framework](release-readiness-framework.html)**
 
 ### 3. GenAI-Powered Release Notes & Triage Pipeline

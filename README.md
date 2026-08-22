@@ -1,4 +1,4 @@
-# Nikita Salve | Lead Release & Technical Program Manager
+# Nikita Salve | Release Manager 
 **AI-Driven Delivery & Governance • Zero Production Rollbacks • Open to Remote / Hybrid**
 
 [LinkedIn](https://linkedin.com) • [Email](mailto:nikitasalve2@gmail.com) • +91 9922285444

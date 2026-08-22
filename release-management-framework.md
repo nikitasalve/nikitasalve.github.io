@@ -204,7 +204,6 @@ title: "Release Manager Framework"
 
   <section class="rm-section">
 
-```
 <h2>Release Lifecycle</h2>
 
 <p class="rm-section-intro">
@@ -251,13 +250,13 @@ title: "Release Manager Framework"
   </div>
 
 </div>
-```
+
 
   </section>
 
   <section class="rm-section">
 
-```
+
 <h2>Release Environments</h2>
 
 <p class="rm-section-intro">
@@ -275,13 +274,13 @@ title: "Release Manager Framework"
   <span class="arrow">→</span>
   <span class="environment">PRODUCTION</span>
 </div>
-```
+
 
   </section>
 
   <section class="rm-section">
 
-```
+
 <h2>Release Manager Focus</h2>
 
 <div class="focus-grid">
@@ -341,13 +340,12 @@ title: "Release Manager Framework"
   </div>
 
 </div>
-```
+
 
   </section>
 
   <section class="rm-section">
 
-```
 <h2>Tools &amp; Practices</h2>
 
 <div class="tools">
@@ -359,7 +357,7 @@ title: "Release Manager Framework"
   <span class="tool">CAB Governance</span>
   <span class="tool">Change Management</span>
 </div>
-```
+
 
   </section>
 
